@@ -1,0 +1,11 @@
+@import "globals";
+@import "variables";
+
+
+.openMenu span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: $color-Dark;
+    border: 2px solid white;
+}
