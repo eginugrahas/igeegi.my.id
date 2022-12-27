@@ -3,11 +3,42 @@
 //typography
 $heading-font-family: 'Poppins', sans-serif;
 $body-font-family: 'Ubuntu', sans-serif;
-$base-font-size: 18px;
+$base-font-size: 16px;
 $base-font-weight: 300;
 
 
 // colors 
 
 $color-Dark : #333333;
-$color-Yellow : #FEBC39
+$color-Yellow : #FEBC39;
+$color-Grey: #FFFAE1;
+
+// dot
+$dot-size: 1px;
+$dot-space: 22px;
+
+
+//width 
+
+$mobile-width: 440px;
+$tablet-width: 800px;
+$desktop-width: 1024px;
+
+@mixin mobile {
+    @media (max-width: #{$mobile-width}){
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (min-width: #{$mobile-width}) and (max-width: #{$tablet-width - 1px}) {
+      @content;
+    }
+  }
+  
+  @mixin desktop {
+    @media (min-width: #{$desktop-width})  {
+      @content;
+    }
+  }
+

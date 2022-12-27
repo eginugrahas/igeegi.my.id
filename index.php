@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/logo-yellow.png" type="image/x-icon">
+    <link href="/./fontawesome-free-5.15.4-web/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>igeegi</title>
+</head>
+<body>
+        <header>
+           <nav>
+                <a href="index.php" class="logo"><img src="./images/main-logo.png" alt="igeegi"></a>
+               <div class="openMenu">
+                   <i class="fa fa-bars"></i>
+                </div>
+               <ul class="mainMenu">
+                    <li><a href="#works">Work</a></li>
+                    <li><a href="#resume">Résumé</a></li>
+                    <li><a href="#hero">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <div class="closeMenu">
+                        <i class="fa fa-times"></i>
+                    </div>
+               </ul> 
+           </nav>
+       </header>
+    <div id="hero" class="hero">
+        <div class="container">
+            <div class="left">
+                <img class="pp-1" src="./images/pp-1.png" alt="egi">
+                <h1>Hi, I'm <span>égi</span></h1>
+                <div class="highlight-text">
+                    <h2>a <b>Freelance </b> <br> <span class="animated"></span></h2>
+                </div>
+                <br>
+                <p>based in BDO, 🇮🇩 .</p>
+                <div class="meet">
+                    <a href="#works">Get to know me! 👇</a>
+                    <svg width="198" height="45" viewBox="0 0 198 45" fill="none">
+                        <path id="hand-line" d="M2 5.97524C63 0.764356 127.458 1.40091 191.567 3.77533C193.025 3.82931 194.5 3.81927 195.93 4.10532C196.294 4.1781 195.237 4.4047 194.867 4.43531C185.766 5.18848 176.63 5.43517 167.514 5.97525C155.454 6.68981 136.197 7.88895 123.883 8.83516C118.462 9.25165 112.689 8.56324 107.676 10.6684C106.477 11.1722 109.929 12.0621 111.196 12.355C114.117 13.03 120.053 13.8678 122.856 14.335C124.935 14.6815 137.068 15.7484 127.549 17.5615C120.181 18.965 109.923 18.8981 103.423 23.1347C100.65 24.9425 106.981 40.9553 107.676 42.7643" stroke="#FEBC39" stroke-width="3" stroke-linecap="round"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="right">
+                <img class="pp-1" src="./images/pp-1.png" alt="egi">
+                <div class="social-media">
+                    <span>
+                        <a href="https://www.instagram.com/eginugrahas/"> <i class="fab fa-instagram-square"></i></a>
+                        <a href="https://www.facebook.com/eginugrahasmart/"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://www.linkedin.com/in/eginugrahas/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/eginugrahas/"><i class="fab fa-twitter-square"></i></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="works" id="works">
+        <h1>Works</h1>
+        <div class="paid-projects">
+            <h1>Paid Projects</h1>
+            <p>I made these pages for my Clients</p>
+            <div class="inner-container">
+                <img src="./images/integnstudio.png" alt="integnstudio">
+                <div class="project-desc">
+                    <h2>Integn Studio</h2>
+                    <p>Company Profile Website for Interior Design and Contractor Company.</p>
+                    <a href="https://integnstudio.com"><button>Live Preview</button></a>
+                </div>
+            </div>
+            <div class="more">
+                <a href="./pages/works.html">
+                    <small>Find out more</small>
+                    <img src="./images/arrow-1.svg" alt="more">
+                </a>   
+            </div>
+        </div>
+        <div class="personal-projects">
+            <h1>Personal Projects & Challenges</h1>
+            <p>Projects and challenges i made for practicing my skill</p>
+            <div class="inner-container">
+                <img src="./images/daun-resort.png" alt="daun resort">
+                <div class="project-desc">
+                    <h2>Daun Resort (Desktop Only)</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="https://daunresort.netlify.app"><button>Live Preview</button></a>
+                </div>
+            </div>
+            <div class="inner-container">
+                <img src="./images/base-apparel.png" alt="base apparel">
+                <div class="project-desc">
+                    <h2>Base Apparel Landing Page</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="https://igeegi-baseapparel.netlify.app"><button>Live Preview</button></a>
+                </div>
+            </div>
+            <div class="inner-container">
+                <img src="./images/huddle.png" alt="huddle">
+                <div class="project-desc">
+                    <h2>Huddle Landing Page</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="https://igeegi-huddle.netlify.app"><button>Live Preview</button></a>
+                </div>
+            </div>
+            <div class="inner-container">
+                <img src="./images/easybank.png" alt="easy bank">
+                <div class="project-desc">
+                    <h2>Easy Bank Landing Page (Desktop Only)</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="https://igeegi-easybank.netlify.app"><button>Live Preview</button></a>
+                </div>
+            </div>
+            <div class="more">
+                <a href="./pages/works.html">
+                    <small>Find out more</small>
+                    <img src="./images/arrow-1.svg" alt="more">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="resume" id="resume">
+        <h1>Résumé</h1>
+        <div class="container">
+            <div class="left">
+                <h1>Experience</h1>
+                <ul>
+                    <li>Marketing Division, Rex Tour Bandung (Internship 2016-2017)</li>
+                    <li>Logistic and Administration, Rekso Sari Luhur (Internship 2021-2021)</li>
+                    <li>Administration, Reyhan Pratama putra (2021-2021)</li>
+                    <li>Owner, Siomygod (Personal Brand 2017-2017)</li>
+                    <li>Co-Owner, SeBvah Kesegaran (Personal brand 2019-present)</li>
+                    <li>Digital Marketing Fulltime Freelancer (2020-present)</li>
+                    <li>Frontend Web Developer Fulltime Freelancer(2021-present)</li>
+                    </ul>
+            </div>
+            <div class="right">
+                <h1>Education</h1>
+                    <ul>
+                        <li>Tourist Destination, SMK Negeri 1 Bandung (2014-2017)</li>
+                        <li>Tourism Marketing Management, UPI (2017-present)</li>
+                        <li>Tourism Hospitality, Daegu Catholic University (Student Exchange Program 2018-2018)</li>
+                    </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="left skill">
+                <h1>Skills</h1>
+                    <ul class="skill">
+                        <li>Communication</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                        <li>ReactJS</li>
+                        <li>UI/UX Design</li>
+                        <li>Web Design</li>
+                        <li>Copywriting</li>
+                    </ul>
+            </div>
+            <div class="right">
+                <h1>Online Courses</h1>
+                <ul>
+                    <li>Tourism Crisis Webinar: Threat and Opportunity, Markup Tourism (2020)</li>
+                    <li>Global Youth Program Fully Funded Comparative Study (2020)</li>
+                    <li>Exabytes Developer Club: "Multiplatform Application Development with Flutter (2021)</li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="tools">
+            <h1>Tools</h1>
+            <ul class="icons">
+                <li><img src="./images/vscode-icons_file-type-vscode.svg" alt="vscode"></li>
+                <li><img src="./images/grommet-icons_figma.svg" alt="figma"></li>
+                <li><img src="./images/file-icons_adobe-photoshop.svg" alt="photoshop"></li>
+                <li><img src="./images/bi_wordpress.svg" alt="wordpress"></li>
+                <li><img src="./images/logos_bootstrap.svg" alt="bootstrap"></li>
+                <li><img src="./images/akar-icons_github-fill.svg" alt="github"></li>
+            </ul>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h1>Contact </h1>
+        <div class="subtitle">
+            <h2>Want to work together?<br>
+                Just want to say hi? Drop a line right here!
+            </h2>
+            <svg width="73" height="58" viewBox="0 0 73 58" fill="none">
+                <path id="arrow" d="M1.72565 1.52537C0.911197 1.67689 0.373783 2.45996 0.525303 3.27442C0.676822 4.08887 1.4599 4.62628 2.27435 4.47476L1.72565 1.52537ZM43.5 13.0002L44.3602 11.7713L43.5 13.0002ZM59.8522 56.9656C60.3855 57.5996 61.3317 57.6811 61.9656 57.1478L72.2962 48.4571C72.9301 47.9238 73.0117 46.9775 72.4784 46.3436C71.9451 45.7096 70.9988 45.6281 70.3649 46.1614L61.1822 53.8865L53.4571 44.7038C52.9238 44.0699 51.9775 43.9883 51.3436 44.5216C50.7096 45.0549 50.6281 46.0012 51.1614 46.6351L59.8522 56.9656ZM2 3.00007C2.27435 4.47476 2.27386 4.47485 2.27345 4.47493C2.27342 4.47494 2.27309 4.475 2.27303 4.47501C2.27292 4.47503 2.27313 4.47499 2.27366 4.47489C2.27473 4.4747 2.27709 4.47427 2.28074 4.47361C2.28803 4.4723 2.30044 4.4701 2.3179 4.46708C2.35282 4.46104 2.4079 4.45175 2.48244 4.43986C2.63153 4.4161 2.85841 4.38199 3.15748 4.34287C3.75573 4.2646 4.64221 4.16631 5.77231 4.09048C8.03355 3.93873 11.2638 3.87728 15.1078 4.24339C22.7991 4.97594 32.9061 7.4155 42.6398 14.229L44.3602 11.7713C34.0939 4.58493 23.4509 2.02444 15.3922 1.25691C11.3612 0.872983 7.96645 0.936487 5.57144 1.09721C4.37342 1.1776 3.42396 1.28243 2.7683 1.36822C2.44042 1.41111 2.18585 1.44927 2.01023 1.47726C1.92242 1.49126 1.85433 1.50272 1.80667 1.51096C1.78284 1.51508 1.76411 1.5184 1.75058 1.52083C1.74382 1.52204 1.73835 1.52304 1.73419 1.5238C1.73211 1.52418 1.73036 1.5245 1.72893 1.52476C1.72822 1.52489 1.7274 1.52504 1.72704 1.52511C1.72631 1.52525 1.72565 1.52537 2 3.00007ZM42.6398 14.229C52.2005 20.9215 56.4459 31.2449 58.2815 40.056C59.1966 44.4482 59.5023 48.4185 59.5787 51.2899C59.6168 52.7242 59.5976 53.8803 59.5693 54.673C59.5552 55.0693 59.5387 55.3744 59.5261 55.5778C59.5198 55.6794 59.5144 55.7556 59.5107 55.8049C59.5089 55.8296 59.5075 55.8476 59.5066 55.8587C59.5061 55.8642 59.5058 55.8681 59.5056 55.8701C59.5055 55.8712 59.5055 55.8718 59.5055 55.872C59.5055 55.8721 59.5055 55.8719 59.5055 55.8719C59.5055 55.8716 59.5055 55.8712 61 56C62.4945 56.1288 62.4945 56.1282 62.4946 56.1274C62.4946 56.127 62.4947 56.1262 62.4948 56.1254C62.4949 56.1238 62.4951 56.1218 62.4953 56.1193C62.4957 56.1143 62.4962 56.1076 62.4969 56.0992C62.4983 56.0823 62.5001 56.0584 62.5024 56.0278C62.507 55.9666 62.5132 55.8782 62.5203 55.764C62.5345 55.5357 62.5523 55.2042 62.5674 54.7801C62.5977 53.9322 62.6176 52.7134 62.5776 51.2101C62.4977 48.2066 62.1784 44.0519 61.2185 39.4441C59.3041 30.2554 54.7995 19.0788 44.3602 11.7713L42.6398 14.229Z" fill="#333333"/>
+            </svg>
+        </div>
+        <div class="container">
+            <img src="./images/pp-2.png" alt="egi" class="contact-pict">
+            <div class="contact-wrap">
+                <form action="sendEmail.php" method="POST" id="form" name="contactForm" class="contactForm">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Your E-mail">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="body" class="form-text" id="body" placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Send Message</button>
+                    </div>
+                    <small>Please provide a valid email!</small>
+                    <p class="sent-notification"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <hr>
+        <div class="container">
+            <div class="social-media">
+                <span>
+                    <a href="https://www.instagram.com/eginugrahas/"> <i class="fab fa-instagram-square"></i></a>
+                    <a href="https://www.facebook.com/eginugrahasmart/"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.linkedin.com/in/eginugrahas/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/eginugrahas/"><i class="fab fa-twitter-square"></i></a>
+                </span>
+            </div>
+            <span><img src="./images/logo-yellow.png" alt="logo"> built and design by me</span>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12" crossorigin="anonymous" integrity=""></script>
+    <script src="./app/app.js"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+        function sendEmail() {
+            var name = $("#name");
+            var email = $("#email");
+            var subject = $("#subject");
+            var body = $("#body");
+
+            if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(subject) && isNotEmpty(body)) {
+                $.ajax({
+                   url: 'sendEmail.php',
+                   method: 'POST',
+                   dataType: 'json',
+                   data: {
+                       name: name.val(),
+                       email: email.val(),
+                       subject: subject.val(),
+                       body: body.val()
+                   }, success: function (response) {
+                        $('#form')[0].reset();
+                        $('.sent-notification').text("Your message was sent, Thank You!");
+                   }
+                });
+            }
+        }
+
+        function isNotEmpty(caller) {
+            if (caller.val() == "") {
+                caller.css('border', '1px solid red');
+                return false;
+            } else
+                caller.css('border', '');
+
+            return true;
+        }
+    </script>
+
+</body>
+</html>
+

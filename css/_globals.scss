@@ -1,15 +1,30 @@
 @import 'variables';
 
-
-body {
-    box-sizing: border-box;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-
+html {
+    scroll-behavior: smooth;
     font-family: $body-font-family;
     font-size: $base-font-size;
     font-weight: $base-font-weight;
+    color: $color-Dark;
+
+    @include mobile {
+        font-size: 14px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background:
+		linear-gradient(90deg, white ($dot-space - $dot-size), transparent 1%) center,
+		linear-gradient(white ($dot-space - $dot-size), transparent 1%) center,
+		$color-Dark;
+	background-size: $dot-space $dot-space;
 }
 
 ul {
@@ -24,6 +39,7 @@ a {
 
 h1 {
     font-family: $heading-font-family;
-    font-size: 50px;
+    font-size: 2.685rem;
     font-weight: 600;
 }
+

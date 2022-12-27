@@ -1,0 +1,110 @@
+@import "globals";
+@import "variables";
+
+
+.resume {
+    padding: 50px 100px 100px 100px;
+    position:relative; 
+
+    h1 {
+        margin-bottom: 30px;
+    }
+
+    ul {
+        list-style-type: disc;
+    }
+
+    @include mobile {
+        padding: 50px 20px 50px 20px;
+    }
+    @include tablet {
+        padding: 50px 50px 50px 50px;
+    }
+}
+
+.resume::before {
+    content:"";
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: $color-Yellow;
+    top: 40px;
+    left: 90px;
+    z-index:-10;
+}
+
+.resume .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    line-height: 1.5;
+
+    h1 {
+        margin-bottom: 0;
+    }
+    
+
+    .left {
+        width: 50%;
+        padding-right: 100px;
+
+        ul {
+            padding-left: 20px;
+        }
+
+        @include mobile {
+            padding-right: 0;
+            width: 100%;
+        }
+        @include tablet {
+            padding-right: 0;
+            width: 100%;
+        }
+    }
+
+    .right {
+        width: 50%;
+
+        ul {
+            padding-left: 20px;
+        }
+
+        @include mobile {
+            width: 100%
+        }
+        @include tablet {
+            width: 100%
+        }
+    }
+
+    @include mobile {
+        flex-direction: column;
+    }
+    @include tablet {
+        flex-direction: column;
+    }
+}
+
+.resume .container .left .skill {
+    column-count: 2;
+}
+
+.resume .tools h1{
+    margin-bottom: 0;
+}
+
+.resume .tools ul{
+    list-style-type: none;
+    margin-top: 0;
+}
+
+.resume .tools .icons{
+    display: flex;
+   
+
+    img {
+        width: 70%;
+        padding-right: 10px;
+    }
+}
