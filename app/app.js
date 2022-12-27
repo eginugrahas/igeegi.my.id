@@ -1,7 +1,7 @@
 //ityped Typing text animation
 
 const typed = new Typed('.animated', {
-    strings: ['FrontEnd Developer', 'UI/UX Developer', 'Wordpress Developer'],
+    strings: ['FrontEnd Developer', 'UI/UX Developer', 'ReactJs Developer', 'Mobile Developer', 'Laravel Developer'],
     typedSpeed: 90,
     backSpeed: 90,
     loop: true,
