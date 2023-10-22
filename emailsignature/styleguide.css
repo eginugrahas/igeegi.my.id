@@ -1,0 +1,4 @@
+:root {
+  --primitives-color-base-pure-white: rgba(255, 255, 255, 1);
+  --tokens-color-text-text-light: var(--primitives-color-base-pure-white);
+}
