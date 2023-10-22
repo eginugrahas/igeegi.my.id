@@ -1,9 +1,285 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="globals.css" />
-    <link rel="stylesheet" href="styleguide.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:700,600|Overpass+Mono:400"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --primitives-color-base-pure-white: rgba(255, 255, 255, 1);
+        --tokens-color-text-text-light: var(--primitives-color-base-pure-white);
+      }
+      * {
+        -webkit-font-smoothing: antialiased;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0px;
+        height: 100%;
+      }
+      /* a blue color as a generic focus style */
+      button:focus-visible {
+        outline: 2px solid #4a90e2 !important;
+        outline: -webkit-focus-ring-color auto 5px !important;
+      }
+      a {
+        text-decoration: none;
+      }
+      @import url("https://fonts.googleapis.com/css?family=Open+Sans:700,600|Overpass+Mono:400");
+
+      .signature {
+        display: inline-flex;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        min-width: 320px;
+        min-height: 120px;
+      }
+
+      .signature .fill {
+        position: relative;
+        width: 320px;
+        height: 120px;
+      }
+
+      .signature .main {
+        display: inline-flex;
+        height: 120px;
+        align-items: flex-start;
+        position: relative;
+        flex: 0 0 auto;
+        margin-left: -320px;
+      }
+
+      .signature .base-wrapper {
+        width: 320px;
+        justify-content: flex-end;
+        align-self: stretch;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+      }
+
+      .signature .base {
+        width: 300px;
+        height: 100px;
+        justify-content: space-between;
+        padding: 12px 16px;
+        border-radius: 16px;
+        overflow: hidden;
+        background: linear-gradient(
+          180deg,
+          rgb(78.34, 112.48, 142.55) 0%,
+          rgb(15.22, 48.96, 85.17) 100%
+        );
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+      }
+
+      .signature .top {
+        flex-direction: column;
+        align-items: flex-start;
+        align-self: stretch;
+        width: 100%;
+        display: flex;
+        gap: 4px;
+        position: relative;
+        flex: 0 0 auto;
+      }
+
+      .signature .name {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        position: relative;
+        align-self: stretch;
+        width: 100%;
+        flex: 0 0 auto;
+      }
+
+      .signature .egi-nugraha-sumar-s {
+        position: relative;
+        width: fit-content;
+        margin-top: -1px;
+        font-family: "Open Sans", Helvetica;
+        font-weight: 700;
+        color: var(--tokens-color-text-text-light);
+        font-size: 14px;
+        letter-spacing: 0;
+        line-height: normal;
+      }
+
+      .signature .text-wrapper {
+        position: relative;
+        width: fit-content;
+        opacity: 0.5;
+        font-family: "Open Sans", Helvetica;
+        font-weight: 600;
+        color: var(--tokens-color-text-text-light);
+        font-size: 8px;
+        letter-spacing: 0;
+        line-height: normal;
+      }
+
+      .signature .job {
+        width: 268px;
+        align-items: baseline;
+        display: flex;
+        gap: 4px;
+        position: relative;
+        flex: 0 0 auto;
+      }
+
+      .signature .div {
+        position: relative;
+        width: fit-content;
+        font-family: "Overpass Mono", Helvetica;
+        font-weight: 400;
+        color: var(--tokens-color-text-text-light);
+        font-size: 10px;
+        letter-spacing: -0.3px;
+        line-height: normal;
+      }
+
+      .signature .at {
+        position: relative;
+        width: fit-content;
+        margin-top: -1px;
+        opacity: 0.5;
+        font-family: "Open Sans", Helvetica;
+        font-weight: 600;
+        color: var(--tokens-color-text-text-light);
+        font-size: 10px;
+        letter-spacing: 0;
+        line-height: normal;
+      }
+
+      .signature .text-wrapper-2 {
+        position: relative;
+        width: fit-content;
+        margin-top: -1px;
+        font-family: "Overpass Mono", Helvetica;
+        font-weight: 400;
+        color: var(--tokens-color-text-text-light);
+        font-size: 10px;
+        letter-spacing: -0.3px;
+        line-height: normal;
+      }
+
+      .signature .contact {
+        display: flex;
+        width: 278px;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        flex: 0 0 auto;
+        margin-right: -10px;
+      }
+
+      .signature .frame {
+        width: 158px;
+        gap: 3px;
+        display: flex;
+        align-items: center;
+        position: relative;
+      }
+
+      .signature .vector {
+        position: relative;
+        width: 10px;
+        height: 10px;
+      }
+
+      .signature .text-wrapper-3 {
+        position: relative;
+        width: fit-content;
+        margin-top: -1px;
+        font-family: "Open Sans", Helvetica;
+        font-weight: 600;
+        color: var(--tokens-color-text-text-light);
+        font-size: 10px;
+        letter-spacing: 0;
+        line-height: normal;
+      }
+
+      .signature .frame-2 {
+        width: 102px;
+        gap: 4px;
+        display: flex;
+        align-items: center;
+        position: relative;
+      }
+
+      .signature .text-wrapper-4 {
+        position: relative;
+        width: fit-content;
+        margin-top: -1px;
+        font-family: "Open Sans", Helvetica;
+        font-weight: 600;
+        color: #ffffff;
+        font-size: 10px;
+        letter-spacing: 0;
+        line-height: normal;
+      }
+
+      .signature .module-wrapper {
+        display: inline-flex;
+        align-items: flex-start;
+        align-self: stretch;
+        flex: 0 0 auto;
+        margin-left: -80px;
+        justify-content: center;
+        position: relative;
+      }
+
+      .signature .module {
+        display: flex;
+        width: 80px;
+        height: 80px;
+        align-items: center;
+        border-radius: 80px;
+        overflow: hidden;
+        justify-content: center;
+        position: relative;
+      }
+
+      .signature .avatar {
+        display: inline-flex;
+        align-items: flex-end;
+        position: relative;
+        flex: 0 0 auto;
+        border-radius: 28px;
+        border: 2px solid;
+        border-color: #ffffff;
+      }
+
+      .signature .pp {
+        position: relative;
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+      }
+
+      .signature .stroke {
+        position: relative;
+        width: 320px;
+        height: 120px;
+        margin-left: -320px;
+      }
+      a {
+        color: white;
+        cursor: pointer;
+      }
+    </style>
   </head>
   <body>
     <div class="signature">
@@ -21,16 +297,24 @@
                 <div class="at">|</div>
                 <div class="div">Digital Marketing</div>
               </div>
-              <div class="job"><div class="text-wrapper-2">Tourism Enthusiast</div></div>
+              <div class="job">
+                <div class="text-wrapper-2">Tourism Enthusiast</div>
+              </div>
             </div>
             <div class="contact">
               <div class="frame">
                 <img class="vector" src="img/vector-1.svg" />
-                <div class="text-wrapper-3">(+62) 895-0365-1196</div>
+                <div class="text-wrapper-3">
+                  <a href="https://wa.me/6289503651196">
+                    (+62) 895-0365-1196
+                  </a>
+                </div>
               </div>
               <div class="frame-2">
                 <img class="vector" src="img/vector.svg" />
-                <div class="text-wrapper-4">igeegi.netlify.app</div>
+                <div class="text-wrapper-4">
+                  <a href="https://igeegi.netlify.app">igeegi.netlify.app</a>
+                </div>
               </div>
             </div>
           </div>
